@@ -1,0 +1,8 @@
+build/
+sdkconfig
+sdkconfig.old
+.vscode
+.devcontainer
+Pipfile.lock
+.DS_Store
+*.lock

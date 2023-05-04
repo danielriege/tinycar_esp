@@ -1,0 +1,15 @@
+menu "Tinycar Master Configuration"
+
+    config MASTER_HOST_IP
+        string "IPv4 Address"
+        default "tinycar_esp"
+        help
+            Host address of the swiftrobot master
+
+    config MASTER_PORT
+        int "Port"
+        range 1 9999
+        default 4455
+        help
+            Open port of the swiftrobot master
+endmenu
